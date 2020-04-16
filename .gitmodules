@@ -1,0 +1,3 @@
+[submodule "nupic-anomaly-api"]
+	path = nupic-anomaly-api
+	url = https://github.com/steinroe/nupic-anomaly-api.git
