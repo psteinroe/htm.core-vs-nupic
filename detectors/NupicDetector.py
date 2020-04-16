@@ -16,10 +16,8 @@ class NupicDetector(object):
             'inputMax': self.inputMax,
             'probationaryPeriod': self.probationaryPeriod
         })
-        r_json = json.loads(r.text)
-        return r_json
 
-    def handle_record(self, ts, val):
+    def handleRecord(self, ts, val):
         r = requests.post(url="http://localhost:5000/api/handleRecord", json={
             'timestamp': ts.replace(tzinfo=timezone.utc).timestamp(),
             'value': val
