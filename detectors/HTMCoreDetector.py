@@ -36,7 +36,8 @@ parameters_numenta_comparable = {
     'stimulusThreshold': 4,
     'synPermActiveInc': 0.05,
     'synPermConnected': 0.5,
-    'synPermInactiveDec': 0.01},
+    'synPermInactiveDec': 0.01
+  },
   'tm': {
     'activationThreshold': 13,
     'cellsPerColumn': 4,

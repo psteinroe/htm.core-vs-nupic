@@ -1,3 +1,7 @@
 [submodule "nupic-anomaly-api"]
 	path = nupic-anomaly-api
 	url = https://github.com/steinroe/nupic-anomaly-api.git
+[submodule "NAB"]
+	path = NAB
+	url = https://github.com/steinroe/NAB.git
+	branch = optimize_htmcore_params
